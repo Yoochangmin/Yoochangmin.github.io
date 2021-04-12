@@ -1,0 +1,36 @@
+
+
+.Home{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    text-align: center;
+}
+.col-sm-10{
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+  }
+.under_impormation{
+
+    line-height: 25px;
+    font-size: 15px;
+    color:slategray;
+    font-weight: 800;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+.intro{
+    text-align:left
+  }
+.under_nav{
+    
+    text-align: center;
+}
+
+.git_server{
+    text-align: right;
+}
