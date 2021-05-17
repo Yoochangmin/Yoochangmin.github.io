@@ -16,74 +16,138 @@
 
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css\blog.css">
-  <title>Introduce MY HomePage</title>
-    <style>
- .Home{
-      text-align: center;
-  }
-
-  .h3{
-
-     padding: 50;
-  }
-
-  .col-sm-10{
-
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
- 
-  }
-</style>
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+     <title>Introduce MY HomePage</title>
+       <style>
+         
+       </style>
 </head>
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-1"></div>
+<body> 
 
-         <div class="col-sm-10">
-                  <!-- 블로그 메인 이름 설정-->
-                  <h1 class ="Home"><a href ="index.html" target="_self">Introduce My blog</a></h1>
-              <!--상단에 메뉴를 나타내기 위해 네비게이션바를 이용하여 구현했습니다.-->
-                      <div class="divider">
-                          <div calss= "row">
-                            <div class= "col-xs-12"> 
-                            <hr><ol class="breadcrumb"></hr>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="intro_1.html">introduce</a></li>
-                          <li><a href="plan.html">plan</a></li>
-                          <li><a href="Picture.html">picture</a></li>
-                          <li><a href="https://github.com/Yoochangmin/yoochangmin_web.github.io.git">My Github</a></li>
-                            </ol>
-                            </div>
-                        </div>
-                        </div>
-                              <!-- 헤더부분 끝-->
+<div class ="introduce_bar;"> 
+  <div id= " introduce_bar_wrapper" class = "inroduce_bar_flex ;" > <!--상단 고정바 구현-->
+    <div id = "introduce_bar" class ="inroduce_bar_divition" style="border: 5px solid;"> 
+                      <!-- 왼쪽 item 꾸미기-->
+        <div id = "introduce_left_content" class ="introduce_content"> 
+          <div id = "introduce_left_navbar">
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-1"></div>
-                                <div class="col-sm-10" id ="team_rabbit">
-                                <img src="사진/KakaoTalk_20210409_005328065.png" alt="Team Rabbit" height="360px"> 
-                              </div>
-                              <div class="col-sm-1"></div>
-                          </div>
-                        </div>
+            <div id="like_lion_logo" class ="introduce_navbar_item">
+              <img src ="\사진\like_lion.png"  class ="like_lion_link" >
+            </div>
 
-                          <div class="under_impormation">
-                            <p>한국기술교육대학교 18학번 유창민입니다<br>
-                              이번 멋사 9기 활동을 통해 성장하고 싶습니다.<br>
-                              또한 많은 인연을 만들어 활동 후에도 좋은 관계를<br>
-                              유지하고 싶은 소망이 있답니다.</p>   
-                          </div>
+            <div id="MyBlog" class ="introduce_navbar_item">
+              <a class = "MyBlog_link" href="index.html">(MyBlog)</a>     
+            </div>
+
+            <div id ="github" class ="introduce_navbar_item">
+              <a href="https://github.com/Yoochangmin?tab=repositories"><img src ="/사진/git.png" class ="git_link" ></a>
+            </div>
+
+          </div>
+        </div>
+         <!-- 가운데 item 꾸미기 -->
+           <div id = "introduce_middle_content" class ="introduce_content">
+         
+             <div id = "introduce_middle_navbar">
+             
+               <div id ="github" class ="introduce_navbar_item">
+                <a class ="github_link" href="Study.html">Study</a>
+              </div>
+              <div id ="github" class ="introduce_navbar_item">
+                <a class ="github_link" href="project.html">과제</a>
+              </div>
+              <div id ="github" class ="introduce_navbar_item">
+                <a class ="github_link" href="Useful.html">참고</a>
+              </div>
+              <div id ="github" class ="introduce_navbar_item">
+                <a class ="github_link" href="undate.html">업데이트</a>
+              </div>
+              <div id ="github" class ="introduce_navbar_item">
+                <a class ="github_link" date-introduce-link-id="more" target>더 보기
+                  <svg width="10" height="5" class="non-hover arrow-down" viewBox="0 0 8 5">
+                  <path d="M.707 1.707l2.586 2.586a1 1 0 0 0 1.414 0l2.586-2.586C7.93 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z" fill="#7E7E7E">
+                </path></svg>
+                </a>
+              </div>
+             </div>
            </div>
-       <div class="col-sm-1"></div>
-     </div>
+                      <!-- 오른쪽content 꾸미기-->         
+         <div id = "introduce_right_content" class ="introduce_content">
+           <div id = "introduce_right_navbar">
+               <div class="introduce_navbar_item">right</div>
+           </div>
+        </div>
+   </div>
+  </div>
+</div>
+  
+<div class="frame">
+  <div class="header">
+    <div class="logo"> 
+      <img src="/사진/goodlion.png" class= "goodlion">
+      </div>
+  </div>
+  <!-- //header -->
+  <div class="container">
+  
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="" class="nav-link">뭘넣을까.1</a></li>
+        <li class="nav-item"><a href="" class="nav-link">뭘넣을까.2</a></li>
+        <li class="nav-item"><a href="" class="nav-link">뭘넣을까.3</a></li>
+      </ul>
+    </div>
+    <!-- //nav -->
+    <div class="content">
+      <h1>Beginning March-19, 2021 </h1>
+      <p>
+        가장 중요한 것은 질문을 멈추지 않는 것이다. 호기심은 그 자체만으로도 존재 이유를 갖고 있다. 영원성, 생명, 그리고 현실의 놀라운 구조에 대해 숙고하는 사람은 경외감을 느낄 수 밖에 없다. 매일 이러한 비밀의 실타래를 한 가닥씩 푸는 것만으로도 충분하다. 신성한 호기심을 절대로 잃지 말아라.
+          알버트 아인슈타인
+      </p>
+      <p>
+        The important thing is not to stop questioning. Curiosity has its own reason for existing. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity.
+        Albert Einstein
+      </p>
+    </div>
+  
+  </div>
+  <!-- //container -->
+  <div class ="main_layout">
+    <div id="up-container" class="up-layout">  </div>
+    <div id ="left-container"  class= "sub-layout">
+             <p class ="text_location">불을 집혀랏
+             </p>
+    </div>
+    <div class="under-layout">
+    <div id="middle-layout" class="sub-layout">
+        <p class ="text_location">불을집혀랏</p>
+    </div>
+    <div id="right-layout" class="sub-layout">
+        <p class ="text_location">불을집혀랏</p>
+    </div>
+    <div id="left2-layout" class="sub-layout">
+      <p class ="text_location">불을집혀랏</p>
+  </div>
+  <div id="middle2-layout" class="sub-layout">
+    <p class ="text_location">불을집혀랏</p>
+</div>
+<div id="right2-layout" class="sub-layout">
+  <p class ="text_location">불을집혀랏</p>
+</div>
+</div>
+</div>
 
-    
+<div class="footer">
+  <p class="copyright">&copy;LikeLion</p>
+</div>
+</div>
+<!-- //frame -->
+   
+
       
+        <!-- //footer -->
+    
 </body>
 </html>
 
