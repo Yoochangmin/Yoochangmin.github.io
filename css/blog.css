@@ -4,11 +4,12 @@
   width: 100%;
   margin-bottom: 30px;
  display: block;
+ position: fixed;
 
 }
 #intoduce_bar_wrapper{
-  position: fixed;
-  
+  height: 100px;
+
 }
  .inroduce_bar_divition{
    background-color: #111111;
@@ -17,6 +18,9 @@
    font-weight: bold;
    width: 100%;
    height: 100px;
+   position: fixed;
+   z-index: 300000;
+
  }
  .introduce_bar_flex{
   height: 100px;
@@ -74,6 +78,7 @@ flex-direction: row;
  .frame {
   width: 100%;
   border: 1px solid #aaa;
+  padding-top: 120px;
 }
 
 .header {
@@ -185,4 +190,36 @@ flex-direction: row;
   margin: 10px;
   height: 200px;
 
+}
+
+body{
+  position: relative;
+
+}
+
+.col-xs-12
+{
+  position: relative;
+  top:155px;
+  z-index: 30000;
+}
+.under_nav{
+  position: relative;
+  top:200px;
+  text-align: center;
+}
+
+
+.Useful-main{
+  width: 100%;
+
+
+
+ padding-top: 110px;
+  height: 900px;
+}
+
+
+.website{
+  color: #fff;
 }

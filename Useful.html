@@ -26,60 +26,84 @@
 </head>
 <!--  -->
 <body> 
-
-<div class ="introduce_bar"> 
-  <div id= " introduce_bar_wrapper" class = "inroduce_bar_fixed"> <!--상단 고정바 구현-->
-    <div id = "intoduce_bar" class ="inroduce_bar"> 
-                      <!-- 왼쪽 item 꾸미기-->
-        <div id = "introduce_left_content" class ="introduce_left_content"> 
-          <div id = "introduce_left_navbar">
-            <div id="like_lion_logo" class ="introduce_navbar_item">
-              <img src ="\사진\like_lion.png" height="23" width = "20" class ="MyBlog_link" >
-            </div>
-            <div id="MyBlog" class ="introduce_navbar_item">
-              <a class = "MyBlog_link" href="index.html">(MyBlog)</a>     
-            </div>
-            <div id ="github" class ="introduce_navbar_item">
-              <a class ="github_link" href="https://yoochangmin.github.io/">GitHub</a>
+  <div class ="introduce_bar;"> 
+    <div id= " introduce_bar_wrapper" class = "inroduce_bar_flex ;" > <!--상단 고정바 구현-->
+      <div id = "introduce_bar" class ="inroduce_bar_divition" style="border: 5px solid;"> 
+                        <!-- 왼쪽 item 꾸미기-->
+          <div id = "introduce_left_content" class ="introduce_content"> 
+            <div id = "introduce_left_navbar">
+  
+              <div id="like_lion_logo" class ="introduce_navbar_item">
+                <img src ="\사진\like_lion.png"  class ="like_lion_link" >
+              </div>
+  
+              <div id="MyBlog" class ="introduce_navbar_item">
+                <a class = "MyBlog_link" href="index.html">(MyBlog)</a>     
+              </div>
+  
+              <div id ="github" class ="introduce_navbar_item">
+                <a href="https://github.com/Yoochangmin?tab=repositories"><img src ="/사진/git.png" class ="git_link" ></a>
+              </div>
+  
             </div>
           </div>
-        </div>
-         <!-- 가운데 item 꾸미기 -->
-           <div id = "introduce_middle_content" class ="introduce_middle_content">
-         
-             <div id = "introduce_middle_navbar">
-             
-               <div id ="github" class ="introduce_navbar_item">
-                <a class ="github_link" href="Study.html">Study</a>
-              </div>
-              <div id ="github" class ="introduce_navbar_item">
-                <a class ="github_link" href="project.html">과제</a>
-              </div>
-              <div id ="github" class ="introduce_navbar_item">
-                <a class ="github_link" href="Useful.html">참고</a>
-              </div>
-              <div id ="github" class ="introduce_navbar_item">
-                <a class ="github_link" href="undate.html">업데이트</a>
-              </div>
-              <div id ="github" class ="introduce_navbar_item">
-                <a class ="github_link" href="">더 보기</a>
-              </div>
+           <!-- 가운데 item 꾸미기 -->
+             <div id = "introduce_middle_content" class ="introduce_content">
+           
+               <div id = "introduce_middle_navbar">
+               
+                 <div id ="github" class ="introduce_navbar_item">
+                  <a class ="github_link" href="Study.html">Study</a>
+                </div>
+                <div id ="github" class ="introduce_navbar_item">
+                  <a class ="github_link" href="project.html">과제</a>
+                </div>
+                <div id ="github" class ="introduce_navbar_item">
+                  <a class ="github_link" href="Useful.html">참고</a>
+                </div>
+                <div id ="github" class ="introduce_navbar_item">
+                  <a class ="github_link" href="undate.html">사진첩</a>
+                </div>
+                <div id ="github" class ="introduce_navbar_item">
+                  <a class ="github_link" date-introduce-link-id="more" target>더 보기
+                    <svg width="10" height="5" class="non-hover arrow-down" viewBox="0 0 8 5">
+                    <path d="M.707 1.707l2.586 2.586a1 1 0 0 0 1.414 0l2.586-2.586C7.93 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z" fill="#7E7E7E">
+                  </path></svg>
+                  </a>
+                </div>
+               </div>
              </div>
-           </div>
-                      <!-- 오른쪽content 꾸미기-->         
-         <div id = "introduce_right_content" class ="introduce_right_content">
-          <div>right</div>
-           </div>
+                        <!-- 오른쪽content 꾸미기-->         
+           <div id = "introduce_right_content" class ="introduce_content">
+             <div id = "introduce_right_navbar">
+                 <div class="introduce_navbar_item">right</div>
+             </div>
+          </div>
      </div>
     </div>
-   </div>
-
+  </div>
       
+  <div class ="Useful-main">
  <ol>
-    <a href="https://codepen.io/witblog/pen/LJrPoq"> 반응형 박스 구현 </a>
-    <a href="https://wtss.tistory.com/236"> 웹사이트 강의</a>
+    <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+    <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+      <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+      <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+        <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+        <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+          <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+          <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+            <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+            <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+              <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+              <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+                <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+                <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+                  <p><a href="https://codepen.io/witblog/pen/LJrPoq" class ="website"> 반응형 박스 구현 </a></p>
+                  <p> <a href="https://wtss.tistory.com/236" class ="website"> 웹사이트 강의</a>
+
  </ol>
-                    
+</div>
       
 </body>
 </html>
